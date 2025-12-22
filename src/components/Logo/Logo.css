@@ -1,0 +1,38 @@
+.logo-element {
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.logo-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    margin-left: 36px;
+    margin-right: 8px;
+}
+
+.logo-text {
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(76, 132, 236);
+    font-family: open-sans, sans-serif;
+    margin-bottom: 0;
+    margin-left: 8px;
+    display: none;
+}
+
+@media (min-width: 768px) {
+  .logo-text {
+    display: inline;
+  }
+}
